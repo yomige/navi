@@ -1,88 +1,144 @@
 ---
 
-- taxonomy: 常用推荐
+- taxonomy: 常用
+  icon: fas fa-medal
+  links:
+    - title: '优米格'
+      logo: nav-nailao.png
+      url: https://www.yomige.org/
+      description: 分享有营养的。
+    - title: 推特
+      logo: nav-x-twitter.webp
+      url: https://x.com/
+      description: Twitter
+    - title: 奇客Solidot
+      logo: solidot.png
+      url: https://www.solidot.org/
+      description: 奇客资讯网。
+    - title: Youtube
+      logo: nav-youtube.svg
+      url: https://www.youtube.com/
+      description: 全球最大的视频搜索和分享平台。
+    - title: 盘火火
+      logo: nav-phh_logo.svg
+      url: https://www.panhuohuo.com/
+      description: 网盘搜索引擎。
+
+- taxonomy: 网站推荐
   icon: far fa-star
   links: 
-    - title: 语雀
-      logo: 语雀.webp
-      url: https://www.yuque.com/
-      description: 专业的云端知识库。
-    - title: QQ 邮箱
-      logo: qq邮箱.png
-      url: http://mail.qq.com/
-      description: 腾讯 QQ 邮箱。
-    - title: 开源中国
-      logo: 开源中国.jpg
-      url: https://www.oschina.net/
-      description: 中文开源技术交流社区。
-    - title: 公众号平台
-      logo: 微信公众号.png
-      url: https://mp.weixin.qq.com/
-      description: 再小的个体也有自己的品牌。
-    - title: GitHub
-      logo: github.png
-      url: https://github.com/
-      description: GitHub 开源社区。
-    - title: 搜狗微信
-      logo: 搜狗微信.jpg
-      url: https://weixin.sogou.com/
-      description: 搜狗微信搜索，一搜即达。
-    - title: 知乎
-      logo: 知乎.png
-      url: https://www.zhihu.com/
-      description: 知乎社区。
     - title: V2EX
-      logo: v2ex.jpg
+      logo: nav-v2ex.svg
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
-    - title: 关注我们
-      logo: 关注.jpg
-      url: https://www.bioitee.com
-      qrcode: qrcode.jpg
-      description: 微信公众号：BioIT 爱好者！
+    - title: ChatGPT
+      url: https://chatgpt.com/
+      logo: nav-ChatGPT.svg
+      description: chat.openai.com
+    - title: 语雀
+      logo: nav-yuque.svg
+      url: https://www.yuque.com/
+      description: 专业的云端知识库。
+    - title: 开源中国
+      logo: nav-oschina.svg
+      url: https://www.oschina.net/
+      description: 中文开源技术交流社区。
+    - title: 知乎
+      logo: nav-zhihu.svg
+      url: https://www.zhihu.com/
+      description: 知乎社区。
+    - title: 文心一言
+      url: https://yiyan.baidu.com/
+      logo: nav-wenxinyiyan.svg
+      description: yiyan.baidu.com
+    - title: 公众号平台
+      logo: nav-gongzhonghao.svg
+      url: https://mp.weixin.qq.com/
+      description: 再小的个体也有自己的品牌。
+    - title: 搜狗微信
+      logo: nav-sougou-weixin.svg
+      url: https://weixin.sogou.com/
+      description: 搜狗微信搜索，一搜即达。
+    - title: 微博
+      logo: nav-weibo.svg
+      url: https://weibo.com/
+      description: 随时随地发现新鲜事。
 
 
-- taxonomy: 科研办公
+
+
+
+
+- taxonomy: 资源下载
+  icon: fas fa-hammer
+  list:
+  - term: 系统&办公
+    links: 
+      - title: MSDN我告诉你
+        logo: nav-itellyou.svg
+        url: https://msdn.itellyou.cn/
+        description: 操作系统、Office办公。
+      - title: HelloWindows
+        logo: nav-hellowindows.svg
+        url: https://hellowindows.cn/
+        description: Windows资源下载。
+  - term: 软件下载
+    links: 
+      - title: FDM
+        logo: nav-app.svg
+        url: https://fdm.aitlp.com/
+        description: FDM软件资源。
+  - term: 网盘资源
+    links:
+      - title: Onedrive
+        logo: nav-onedrive.svg
+        url: https://onedrive.live.com/
+        description: 微软Onedrive.
+      - title: 蓝奏云
+        logo: nav-lanzou.svg
+        url: https://www.lanzou.com/
+        description: 蓝奏云网盘.
+      - title: 百度网盘
+        logo: nav-baiduyunpan.svg
+        url: http://pan.baidu.com/
+        description: https://pan.baidu.com/.
+      - title: 阿里云盘
+        logo: nav-alipan.svg
+        url: https://www.aliyundrive.com/
+        description: 阿里云盘，你的数字世界。
+      - title: Dropbox
+        logo: dropbox.svg
+        usrl: https://www.dropbox.com/
+        description: Dropbox网盘。
+      - title: PikPak
+        logo: pikpak.svg
+        usrl: https://mypikpak.com/zh-CN
+        description: Pikpak网盘。
+      - title: 天翼云盘
+        logo: nav-tianyipan.svg
+        url: https://cloud.189.cn/
+        description: 家庭云|网盘|文件备份|资源分享。
+      - title: 坚果云
+        logo: nav-jianguoyun.svg
+        usrl: https://www.jianguoyun.com/
+        description: 坚果云官网。
+
+
+- taxonomy: 科技研发
   icon: fas fa-flask fa-lg
   list:
-    - term: 生物信息
-      links:
-        - title: NCBI
-          logo: ncbi.jpg
-          url: https://www.ncbi.nlm.nih.gov/
-          description: National Center for Biotechnology Information.
-        - title: Bioconda
-          logo: bioconda.jpg
-          url: https://anaconda.org/bioconda/
-          description: "Bioconda :: Anaconda.org."
-        - title: CPAN
-          logo: cpan.jpg
-          url: https://metacpan.org/
-          description: Search the CPAN.
-        - title: Galaxy Project
-          logo: galaxy_project.png
-          url: https://galaxyproject.org/
-          description: Galaxy Community Hub.
-        - title: R Project
-          logo: r-project.jpg
-          url: https://www.r-project.org/
-          description: https://www.r-project.org
-        - title: Bioconductor
-          logo: bioconductor.jpg
-          url: http://www.bioconductor.org/
-          description: http://www.bioconductor.org
     - term: 云服务器
       links:
         - title: 阿里云
-          logo: 阿里云.jpg
+          logo: nav-aliyun.svg
           url: https://www.aliyun.com/
           description: 上云就上阿里云。
         - title: 腾讯云
-          logo: 腾讯云.webp
+          logo: nav-tengxunyun.svg
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
         - title: 华为云
-          logo: 华为云.png
+          logo: nav-huaweiyun.svg
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
         - title: 云筏科技
@@ -97,22 +153,74 @@
           logo: 青椒云.jpg
           url: https://www.qingjiaocloud.com/
           description: 云桌面,一站式云电脑服务平台。
+    - term: 研发
+      links:
+        - title: 字节CDN
+          logo: bytedance.svg
+          url: https://cdn.bytedance.com/
+          description: 字节跳动静态资源公共库。
+        - title: CdnJs
+          logo: cdnjs.svg
+          url: https://cdnjs.com/
+          description: The #1 free and open source CDN built to make life easier for developers。
+
+- taxonomy: 工作办公
+  icon: fas fa-briefcase
+  list:
+    - term: 邮箱
+      links:
+        - title: Gmail邮箱
+          logo: gmail.svg
+          url: https://mail.google.com/
+          description: Google Gmail邮箱。
+        - title: Outlook
+          logo: outlook.svg
+          url: https://outlook.live.com/mail/
+          description: 微软Outlook邮箱
+        - title: DuckduckGo隐私邮箱
+          logo: duckduckgo.svg
+          url: https://duckduckgo.com/email/
+          description: DuckduckGo隐私邮箱。
+        - title: Proton邮箱
+          logo: protonmail.svg
+          url: https://proton.me/
+          description: Proton邮箱。
+        - title: 163邮箱
+          logo: 163.svg
+          url: https://mail.163.com/
+          description: 网易邮箱。
+        - title: QQ邮箱
+          logo: qq-mail.svg
+          url: https://mail.qq.com/
+          description: QQ邮箱。
+        - title: 新浪邮箱
+          logo: sina-mail.svg
+          url: https://mail.sina.com.cn/
+          description: 新浪邮箱。
+        - title: 阿里邮箱
+          logo: alimail.svg
+          url: https://mail.aliyun.com/?lang=zh_CN
+          description: 阿里邮箱个人版。
     - term: 办公学习
       links:
+        - title: Office模板
+          logo: Office.svg
+          url: https://www.officeplus.cn/
+          description: PPT模板。
         - title: 有道词典
-          logo: 有道词典.png
+          logo: youdao.svg
           url: https://www.youdao.com/
           description: 免费，即时的多语种在线翻译。
         - title: 有道翻译
-          logo: 有道词典.png
+          logo: youdao.svg
           url: http://fanyi.youdao.com/
           description: 有道翻译。
         - title: 谷歌翻译
-          logo: 谷歌翻译.jpg
+          logo: google-translate.svg
           url: https://translate.google.cn/
           description: 谷歌翻译。
         - title: ProcessOn
-          logo: ProcessOn.png
+          logo: processon.svg
           url: https://www.processon.com/
           description: 免费在线作图、实时协作。
         
@@ -123,62 +231,61 @@
     - term: 影音视频
       links:
         - title: 腾讯视频
-          logo: 腾讯视频.png
+          logo: vqq.svg
           url: http://v.qq.com/
           description: 腾讯视频，海量视频在线观看。
         - title: 优酷
-          logo: 优酷.png
+          logo: youku.svg
           url: http://www.youku.com/
           description: 优酷 - 这个世界很酷。
         - title: 爱奇艺
-          logo: 爱奇艺.png
+          logo: iqiyi.svg
           url: https://www.iqiyi.com/
           description: 爱奇艺在线视频。
         - title: 哔哩哔哩
-          logo: 哔哩哔哩.png
+          logo: bilibili.svg
           url: https://www.bilibili.com/
           description: Bilibili 视频弹幕网站。
         - title: QQ 音乐
-          logo: QQ音乐.jpg
+          logo: qqmusic.svg
           url: https://y.qq.com/
           description: QQ 音乐，在线听歌。
         - title: 网易云音乐
-          logo: 网易云音乐.jpg
+          logo: 163music.svg
           url: https://music.163.com/
-          description: 163 网易云音乐。
+          description: 网易云音乐。
+        - title: 酷狗音乐
+          logo: kugou.svg
+          url: https://www.kugou.com/
+          description: 酷狗音乐。
     - term: 游戏竞技
       links:
-        - title: 百度贴吧
-          logo: 百度贴吧.jpg
-          url: ttps://tieba.baidu.com/index.html
-          description: 百度贴吧。
-        - title: 台服战地
-          logo: 战地之王.png
-          url: https://ava.mangot5.com/ava/index
-          description: 台服 AVA 战地之王。
+        - title: 4399小游戏
+          logo: 4399.svg
+          url: https://www.4399.com/
+          description: 4399小游戏。
+        - title: 7k7k小游戏
+          logo: 7k7k.svg
+          url: https://www.7k7k.com/
+          description: 7k7k在线小游戏。
+        - title: Steam
+          logo: steam.svg
+          url: https://store.steampowered.com/
+          description: Steam商店。
+        - title: 英雄联盟
+          logo: lol.svg
+          url: https://lol.qq.com/main.shtml
+          description: 腾讯英雄联盟。
+        - title: 王者荣耀
+          logo: wangzherongyao.svg
+          url: https://pvp.qq.com/
+          description: 王者荣耀。
+
    
       
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
   list:
-    - term: 网盘资源
-      links:
-        - title: 百度网盘
-          logo: 百度网盘.jpg
-          url: http://pan.baidu.com/
-          description: https://pan.baidu.com/.
-        - title: 阿里云盘
-          logo: 阿里云盘.png
-          url: https://www.aliyundrive.com/
-          description: 阿里云盘，你的数字世界。
-        - title: 天翼云盘
-          logo: 天翼云盘.jpg
-          url: https://cloud.189.cn/
-          description: 家庭云|网盘|文件备份|资源分享。
-        - title: 坚果云
-          logo: 坚果云.png
-          usrl: https://www.jianguoyun.com/
-          description: 坚果云官网。
     - term: 图标素材
       links:
         - title: Iconfinder
@@ -222,7 +329,7 @@
           url: https://material.io/icons/
           description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
         - title: Font Awesome Icon
-          logo: fontawesomeicon.png
+          logo: font-awesome.svg
           url: https://fontawesome.com/icons/
           description: The complete set of 675 icons in Font Awesome.
         - title: ion icons
@@ -492,6 +599,14 @@
           description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
     - term: 在线工具
       links:
+        - title: 在线工具
+          url: https://tool.lu/
+          logo: Toolbox.svg
+          description: 你的工具箱.
+        - title: 在线PS
+          url: https://tool.lu/
+          logo: photopea.svg
+          description: 在线PS.
         - title: tinypng
           url: https://tinypng.com/
           logo: tinypng.png
@@ -502,7 +617,7 @@
           description: create QR codes for free (Logo, T-Shirt, vCard, EPS).
         - title: ezgif
           url: https://ezgif.com
-          logo: ezgif.png
+          logo: nav-ezgif.png
           description: simple online GIF maker and toolset for basic animated GIF editing.
         - title: Android 9 patch
           url: http://inloop.github.io/shadow4android/
@@ -518,7 +633,7 @@
           description: SVG 在线压缩平台。
         - title: 稿定抠图
           url: https://www.gaoding.com
-          logo: gaoding.png
+          logo: gaoding.svg
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
         
     - term: 谷歌插件
@@ -556,33 +671,29 @@
       links:
         - title: 微信读书
           url: https://weread.qq.com/
-          logo: 微信读书.jpg
+          logo: weread.svg
           description: 微信读书电脑版。
         - title: 书栈网
           url: https://www.bookstack.cn/
-          logo: 书栈网.jpg
+          logo: book-stack.svg
           description: IT 互联网开源编程书籍免费阅读与下载。
     - term: 博客论坛
       links:
         - title: Inoreader
           url: https://www.inoreader.com/
-          logo: inoreader.jpg
+          logo: inoreader.svg
           description: 重新掌控你的新闻订阅源。
         - title: Hacker News
           url: https://news.ycombinator.com/
           logo: hacker-news.jpg
           description: 一家关于计算机黑客和创业公司的社会化新闻网站。
-        - title: 经管之家
-          url: https://bbs.pinggu.org/
-          logo: 经管之家.jpg
-          description: 国内活跃的经济、管理、金融、统计在线教育和咨询网站。
         - title: 阮一峰的网络日志
           url: http://www.ruanyifeng.com/blog/
-          logo: 阮一峰.png
+          logo: blog.svg
           description: 阮一峰，科技爱好者周刊。
         - title: 酷壳
           url: https://www.coolshell.cn/
-          logo: ''
+          logo: blog.svg
           description: 酷 壳 – CoolShell。
     - term: 设计规范
       links:
@@ -608,20 +719,8 @@
           description: PS礼仪-WEB设计指南。
     - term: 视频教程
       links:
-        - title: Photoshop Lady
-          url: http://www.photoshoplady.com/
-          logo: PhotoshopLady.png
-          description: Your Favourite Photoshop Tutorials in One Place.
-        - title: doyoudo
-          url: http://doyoudo.com/
-          logo: doyoudo.png
-          description: 创意设计软件学习平台。
-        - title: 没位道
-          url: http://www.c945.com/web-ui-tutorial/
-          logo: web_ui_tutorial.png
-          description: WEB UI免费视频公开课。
         - title: 慕课网
           url: https://www.imooc.com/
-          logo: imooc.png
+          logo: imooc.svg
           description: 程序员的梦工厂（有UI课程）。
         
