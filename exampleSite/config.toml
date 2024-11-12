@@ -1,6 +1,6 @@
 baseURL               = "https://navi.yomige.com"
 languageCode          = "zh-CN"
-title                 = "WebStack-Hugo 网址导航"
+title                 = "优米格网址导航"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
@@ -24,8 +24,8 @@ publishDir            = "public"				# 站点静态文件保存目录
     fancybox      = true                                        # 使用 Fancybox 实现图片灯箱/放大功能
 
 [params.seo]    
-    baiduhmid       = 'efccc04cb44fc49faddac5876180b369'	# 百度统计 hm.src 的 ID
-    baiduSiteVer    = 'codeva-cCAOSG8MBO'			# 百度HTML标签验证(baidu-site-verification)
+    baiduhmid       = ''	# 百度统计 hm.src 的 ID
+    baiduSiteVer    = ''			# 百度HTML标签验证(baidu-site-verification)
     tj51laid        = ''                        		# 51.LA 网站统计
     tj51lack        = ''
     GoogleAdsClient = ''					# Google AdSense 
@@ -37,10 +37,10 @@ publishDir            = "public"				# 站点静态文件保存目录
     favicon           = "assets/images/favicon-32x32.png"
     searchImageL      = "assets/images/bg-dna.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/bg-dna.jpg"		# 搜索部分深色背景图
-    logoExpandLight   = "assets/images/logos/nav-nailao.png"
-    logoExpandDark    = "assets/images/logos/nav-nailao.png"
-    logoCollapseLight = "assets/images/logos/nav-nailao.png"
-    logoCollapseDark  = "assets/images/logos/nav-nailao.png"
+    logoExpandLight   = "assets/images/logos/nailao.png"
+    logoExpandDark    = "assets/images/logos/nailao.png"
+    logoCollapseLight = "assets/images/logos/nailao.png"
+    logoCollapseDark  = "assets/images/logos/nailao.png"
     
 [markup.goldmark.renderer]
     unsafe = true
