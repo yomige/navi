@@ -12,7 +12,7 @@ publishDir            = "public"				# 站点静态文件保存目录
     author        = "shenweiyan"
     description   = "优米格网址导航"
     upload        = "https://www.yomige.org/"      # 左侧导航栏的"网站提交"
-    about         = "https://www.yomige.org/"	          # 左侧导航栏的"关于导航"页面(./about)
+    about         = "https://github.com/shenweiyan/WebStack-Hugo"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
     enablePreLoad = true					# 网站完全打开前预加载动画
     textPreLoad   = "Hugo 网址导航主题"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
