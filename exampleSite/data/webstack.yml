@@ -154,7 +154,7 @@
         - title: CdnJs
           logo: cdnjs.svg
           url: https://cdnjs.com/
-          description: The #1 free and open source CDN built to make life easier for developers。
+          description: The Top1 free and open source CDN built to make life easier for developers。
 
 - taxonomy: 工作办公
   icon: fas fa-briefcase
@@ -250,6 +250,12 @@
           logo: kugou.svg
           url: https://www.kugou.com/
           description: 酷狗音乐。
+        - title: 剧圈圈
+          logo: yingshi.svg
+          url: https://jqqzx.me/
+          description: 免费在线影视。
+
+
     - term: 游戏竞技
       links:
         - title: 4399小游戏
