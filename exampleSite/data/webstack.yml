@@ -7,6 +7,10 @@
       logo: nailao.png
       url: https://www.yomige.org/
       description: 分享有营养的。
+    - title: Github
+      logo: github.svg
+      url: https://github.com/
+      description: 代码协作平台。
     - title: 推特
       logo: x-twitter.webp
       url: https://x.com/
@@ -141,18 +145,6 @@
           logo: huaweiyun.svg
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
-        - title: 云筏科技
-          logo: 云筏.png
-          url: https://www.cloudraft.cn/
-          description: 你的生信科研好选择。
-        - title: 极云普惠云电脑
-          logo: 极云普惠云电脑.png
-          url: https://www.ji-cloud.cn/
-          description: 云电脑-云游戏-手机变电脑软件。
-        - title: 青椒云
-          logo: 青椒云.jpg
-          url: https://www.qingjiaocloud.com/
-          description: 云桌面,一站式云电脑服务平台。
     - term: 研发
       links:
         - title: 字节CDN
@@ -289,13 +281,21 @@
     - term: 图标素材
       links:
         - title: Iconfinder
-          logo: Iconfinder.png
+          logo: iconfinder.svg
           url: https://www.iconfinder.com
           description: 2,100,000+ free and premium vector icons.
         - title: iconfont
           logo: iconfont.svg
           url: http://www.iconfont.cn/
           description: 阿里巴巴矢量图标库。
+        - title: Material icons
+          logo: material-ui.svg
+          url: https://material.io/icons/
+          description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
+        - title: Font Awesome Icon
+          logo: font-awesome.svg
+          url: https://fontawesome.com/icons/
+          description: The complete set of 675 icons in Font Awesome.
         - title: iconmonstr
           logo: iconmonstr.png
           url: https://iconmonstr.com/
@@ -324,14 +324,6 @@
           logo: UICloud.png
           url: http://ui-cloud.com/
           description: The largest user interface design database in the world.
-        - title: Material icons
-          logo: Materialicons.png
-          url: https://material.io/icons/
-          description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
-        - title: Font Awesome Icon
-          logo: font-awesome.svg
-          url: https://fontawesome.com/icons/
-          description: The complete set of 675 icons in Font Awesome.
         - title: ion icons
           logo: ionicons.png
           url: http://ionicons.com/
@@ -638,30 +630,10 @@
         
     - term: 谷歌插件
       links:
-        - title: wappalyzer
-          url: https://www.wappalyzer.com/
-          logo: wappalyzer.png
-          description: Identify technology on websites.
-        - title: Panda
-          url: http://usepanda.com/
-          logo: usepanda.png
-          description: A smart news reader built for productivity.
-        - title: sizzy
-          url: https://sizzy.co/
-          logo: sizzy.png
-          description: A tool for developing responsive websites crazy-fast.
-        - title: csspeeper
-          url: https://csspeeper.com/
-          logo: csspeeper.png
-          description: Smart CSS viewer tailored for Designers.
-        - title: insight
-          url: http://insight.io/
-          logo: insight.png
-          description: IDE-like code search and navigation, on the cloud.
-        - title: mustsee
-          url: http://mustsee.earth/
-          logo: mustsee.png
-          description: Discover the world's most beautiful places at every opened tab.
+        - title: Monica
+          url: https://monica.im/invitation?c=MQJWSGR9
+          logo: Monica.svg
+          description: 免费解锁 Claude-3.5 & GPT-4o.
 
 
 - taxonomy: 资讯学习
